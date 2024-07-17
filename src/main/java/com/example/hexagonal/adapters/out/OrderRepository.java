@@ -1,4 +1,4 @@
-package com.example.hexagonal.adapters;
+package com.example.hexagonal.adapters.out;
 
 import com.example.hexagonal.domain.model.Order;
 import io.quarkus.hibernate.orm.panache.PanacheRepository;

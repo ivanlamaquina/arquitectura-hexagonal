@@ -12,7 +12,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.is;
 
 @QuarkusTest
-public class OrderResourceTest {
+public class OrderControllerTest {
 
     @Test
     public void testCreateOrderEndpoint() {

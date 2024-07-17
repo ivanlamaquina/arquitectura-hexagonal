@@ -1,4 +1,4 @@
-package com.example.hexagonal.adapters;
+package com.example.hexagonal.adapters.in;
 
 import com.example.hexagonal.domain.model.Order;
 import com.example.hexagonal.domain.model.OrderItem;
@@ -13,7 +13,7 @@ import java.util.List;
 @Path("/orders")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
-public class OrderResource {
+public class OrderController {
 
     @Inject
     OrderService orderService;
